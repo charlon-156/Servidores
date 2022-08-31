@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-size: 100%;
+}
+p {
+  font-size: clamp(1em, 1em + 1vw, 1.25em);
+}
+body {
+  background-color: #e1e1e1;
+}
+.rodape-secao2 a {
+  text-decoration: none;
+  color: white;
+}
+.rodape-secao2 a:visited {
+  color: white;
+}
+.cabecalho {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cabecalho-imagem {
+  height: 140px;
+  display: block;
+  margin: 0 auto;
+}
+.cabecalho-secao {
+  margin-top: 12px;
+  border-top: 2px solid;
+}
+.cabecalho-secao-nav {
+  padding-top: 20px;
+  display: flex;
+  gap: 30px;
+}
+.cabecalho-secao-nav-link {
+  color: black;
+}
+.cabecalho-secao-nav-link:hover {
+  color: rgba(208, 5, 11, 85%);
+}
+.principal {
+  padding-top: 100px;
+}
+#principal-titulo {
+  text-align: center;
+  padding-bottom: 50px;
+  font-size: 30px;
+}
+.principal-paragrafo {
+  text-indent: 50px;
+  text-align: justify;
+  margin: 0 50px;
+  padding-bottom: 10px;
+}
+.principal-secao {
+  padding-top: 100px;
+  text-align: center;
+}
+.principal-secao-titulo {
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+#principal-secao-botao {
+  background-color: rgba(208, 5, 11, 100%);
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-size: 30px;
+  cursor: pointer;
+  padding: 30px;
+}
+#principal-secao-botao:hover {
+  background-color: rgba(208, 5, 11, 80%);
+}
+.principal-secao2 {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+}
+#principal-secao2-titulo {
+  text-align: center;
+  font-size: 30px;
+}
+.background-secao-3 {
+  background-color: #aaaaaa;
+}
+.principal-secao3 {
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 60px;
+  width: 80%;
+  text-align: justify;
+}
+.principal-secao3-div {
+  display: flex;
+  align-items: center;
+}
+.background-secao3-div {
+}
+.principal-secao3-imagem {
+  height: 220px;
+  padding-right: 40px;
+}
+.principal-secao3-div2 {
+  padding-left: 9%;
+  padding-top: 10px;
+}
+.principal-secao4 {
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  text-align: justify;
+  padding-bottom: 100px;
+}
+
+.principal-secao4-div {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+.principal-secao4-imagem {
+  height: 220px;
+  padding-right: 70px;
+}
+.principal-secao4-descricao {
+  width: 650px;
+  padding-right: 40px;
+}
+.principal-secao4-div2 {
+  padding-right: 9%;
+  padding-top: 10px;
+}
+.principal-secao4-cargo {
+  position: absolute;
+  left: 65%;
+}
+.rodape {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(208, 5, 11, 100%);
+}
+#rodape-contato {
+  padding-bottom: 40px;
+  text-align: center;
+  font-size: 30px;
+}
+.rodape-secao-mapa {
+  padding-top: 70px;
+  padding-bottom: 30px;
+  width: 900px;
+  height: 450px;
+  border: none;
+}
+.rodape-secao2 {
+  padding-bottom: 50px;
+  text-align: center;
+  color: white;
+}
+.rodape-secao2-informacoes {
+  padding-bottom: 8px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(208, 5, 11, 100%);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(197, 5, 11);
+}
